@@ -1,0 +1,196 @@
+body{
+    height: 100vh;
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.headerbox{
+   display:flex;
+   justify-content: space-between; 
+   background-color: #1F2937;
+   width: 1100px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+ul{
+    display: flex;
+    gap:8px;
+    list-style-type: none;
+}
+
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
+
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    padding:50px;
+    
+}
+
+.left{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.heropic{
+    width: 400px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:900;
+    
+}
+
+#hero2, ul{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+
+button, .contactarea{
+    background-color:#3882F6;
+}
+
+button{
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.infohead{
+    display: flex;
+    justify-content: center;
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 900;
+    padding-top: 50px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    padding:50px;
+    gap:50px;
+}
+
+.stuff{
+    max-width: 150px;
+    color:gray;
+}
+
+.stuffb{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    height:150px;
+    border-radius: 10px;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-weight: lighter;
+}
+
+p{
+    margin: 0;
+}
+
+.boxq{
+   width: 1000px;
+   height:250px;
+   align-items: center;
+   align-content: center;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 30px;  
+    font-weight: 900; 
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contactarea{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin:50px;
+    padding:50px;
+    width: 800px;
+}
+
+.contactline1{
+    color: white;
+    font-size: 24px;
+    font-weight:900;
+}
+
+.contactline2{
+    color:white;
+}
+
+.button2{
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-shrink: 0;
+    border: solid white;
+    border-width: 2px;
+    font-size: 16px;
+    font-weight: 900;
+   
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 50px;
+    color:white;
+    
+}
